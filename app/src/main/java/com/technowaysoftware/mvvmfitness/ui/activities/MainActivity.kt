@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
                     else ->
                         bottomNavigationView.visibility = View.GONE
                 }
+                //rest code
             }
     }
 
