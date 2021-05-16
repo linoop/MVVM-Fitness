@@ -6,8 +6,8 @@ import com.technowaysoftware.mvvmfitness.R
 import com.technowaysoftware.mvvmfitness.ui.viewmodels.MainViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
-@AndroidEntryPoint
+//@AndroidEntryPoint
 class RunFragment : Fragment(R.layout.run_fragment) {
 
-    private val viewModel: MainViewModel by viewModels()
+    //private val viewModel: MainViewModel by viewModels()
 }
