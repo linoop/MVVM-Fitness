@@ -34,6 +34,11 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="${MAPS_API_KEY}" />
 
+       <!--A foreground service performs some operation that is noticeable to the user.
+        A background service performs an operation that isn't directly noticed by the user.-->
+        <service android:name=".services.TrackingService"
+            android:foregroundServiceType="location"/>
+
     </application>
 
 </manifest>
