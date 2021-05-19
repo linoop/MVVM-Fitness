@@ -96,6 +96,8 @@ dependencies {
 
     //Google map
     implementation 'com.google.android.gms:play-services-maps:17.0.1'
+    // Google Maps Location Services
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
 
     // MPAndroidChart
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
